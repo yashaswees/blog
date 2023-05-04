@@ -3,7 +3,7 @@
     line-height: 1.5;
 }
 p, li, footer{
-    font-family: Arial, sans-serif;
+    font-family: serif;
     font-size:medium;
 }
 .container{
@@ -43,11 +43,21 @@ body{
     margin: 0 auto;
 }
 
-h2, h3{
+h2,h1{
+    display: block;
     font-weight: bolder;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
+    text-align: center;
+    padding: 30px;
 }
-img{
+h3{
+    display: inline;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    text-align: center;
+    padding: 50px 0px 0px 40px;
+}
+.img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -63,23 +73,16 @@ img{
 
 }
 #mainNav li:hover{
-    background:rgb(179, 179, 230);
+    background:rgb(161, 161, 235);
 }
 .main{
     float: right;
     width:50%;
-    padding: 0 30px;
+    padding-top: 30px;
 }
 figcaption{
    text-align: center;
 }
-.image-with-text{
-    float: inline-end;
-    margin-right: 20px;
-}
-.image-with-text p {
-    margin-top: 0;
-  }
 h2{
     margin: 0 auto;
 }
@@ -105,5 +108,51 @@ input[type=number]{
     border-color:grey;
     border-width: 1px;
 }
+input[type="submit"] {
+    background-color: #b7a6fc; 
+    border-color: #af9df4;
+    color: black;
+    padding: 10px 20px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 15px; 
+    font-style: ;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+  button[type="submit"]:hover {
+    box-shadow: 0px 0px 20px #9585d5;
+  }
+  footer{
+    padding-top: 30px;
+    text-align: center;
+  }
+.ftext{
+    float: left;
+    width:50%;
+    padding: 5px 30px 0px 0px;
 
-
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
