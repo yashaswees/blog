@@ -1,6 +1,7 @@
 *
 {
     line-height: 1.5;
+    justify-content: center;
 }
 p, li, footer{
     font-family: serif;
@@ -9,6 +10,7 @@ p, li, footer{
 .container{
     position: relative;
     text-align: center;
+    width:100%;
 }
 .center{
     position: absolute;
@@ -28,19 +30,26 @@ a{
 ul{
     list-style: none;
 }
+nav{
+    font-family: 'Raleway';
+}
 #mainNav{
     background:rgb(191, 191, 243);
     color:black;
-    padding: 5px;
+    padding: 5px 10px 5px 0px;
     list-style: none;
     height: 50px;
     width:100%;
+  
 }
 body{
     background-color:#E0D7FF;
     max-width: max-content;
-    width: 75%;
     margin: 0 auto;
+}
+
+.bodyContent{
+    padding: 0px 100px;
 }
 
 h2,h1{
@@ -116,21 +125,26 @@ input[type="submit"] {
     text-align: center; 
     display: inline-block; 
     font-size: 15px; 
-    font-style: ;
     margin: 4px 2px; 
     cursor: pointer; 
     border-radius: 5px; 
-  }
-  button[type="submit"]:hover {
+}
+button[type="submit"]:hover {
     box-shadow: 0px 0px 20px #9585d5;
-  }
-  footer{
+}
+footer{
     padding-top: 30px;
     text-align: center;
-  }
-.ftext{
+}
+
+.about::after{
+content: "";
+clear:both ;
+display: table;
+}
+.aboutText{
     float: left;
-    width:50%;
+    width:60%;
     padding: 5px 30px 0px 0px;
 
 }
@@ -138,21 +152,25 @@ input[type="submit"] {
     background: #3B5998;
     color: white;
   }
-  .fa {
+.fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
-  .fa-twitter {
+}
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa:hover {
+}
+.fa:hover {
     opacity: 0.7;
-  }
-  .fa-linkedin {
+}
+.fa-linkedin {
     background: #007bb5;
     color: white;
-  }
+}
+footer{
+    background-color: rgb(191, 191, 243);
+    padding: 12px 0;
+}
