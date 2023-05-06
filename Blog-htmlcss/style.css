@@ -40,7 +40,6 @@ nav{
     list-style: none;
     height: 50px;
     width:100%;
-  
 }
 body{
     background-color:#E0D7FF;
@@ -85,7 +84,7 @@ h3{
     background:rgb(161, 161, 235);
 }
 .main{
-    float: right;
+    float:right;
     width:50%;
     padding-top: 30px;
 }
@@ -151,18 +150,18 @@ display: table;
 .fa-facebook {
     background: #3B5998;
     color: white;
-  }
+  } 
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-}
+} 
 .fa-twitter {
     background: #55ACEE;
     color: white;
-}
+} 
 .fa:hover {
     opacity: 0.7;
 }
